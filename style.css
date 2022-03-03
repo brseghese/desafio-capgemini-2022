@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  color: #0070ad;
+}
+
+body {
+  background-color: #e6eeff;
+  color: #303030;
+}
+
+img {
+  max-width: 70%;
+  padding: 20px 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #ff9408;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.33rem;
+  color: #ff9408;
+  padding: 20px;
+}
+
+p {
+  font-size: 1.25rem;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.questao {
+  text-align: left;
+}
+
+.desafio {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inp {
+  font-size: 1rem;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 70%;
+  align-self: stretch;
+  outline-color: #007cbe;
+}
+
+#x {
+  font-size: 1rem;
+  padding: 3px 5px;
+  width: 80px;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ffb000;
+  color: #004c75;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #d69200;
+}
+
+#presultado {
+  padding: 0;
+}
+
+span {
+  font-size: 1.25rem;
+  border: none;
+  color: #004c75;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #ffb000;
+  padding: 16px;
+  color: #004c75;
+  font-weight: 900;
+  text-align: center;
+}

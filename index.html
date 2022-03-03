@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Desafio Capgemini 2022</title>
+</head>
+
+<body>
+  <div class="container">
+    <img id="logo" src="./assets/capgemini.png" alt="Capgemini">
+
+    <div class="conteudo">
+
+      <h1>DESAFIO DE PROGRAMAÇÃO 02</h1>
+
+      <h2># Questão 01</h2>
+
+      <div class="questao">
+        <p>A mediana de uma lista de números é basicamente o elemento que se encontra no meio da lista após a ordenação. Dada uma lista de números com um número ímpar de elementos, desenvolva um algoritmo que encontre a mediana.</p>
+      </div>
+
+      <div class="desafio">
+        <label for="num">Digite os números:</label>
+
+        <input type="text" name="num" class="inp" id="num" placeholder="1, 2, 3, 4, 5, 10, 20, ...">
+
+        <button id="botao">Mostrar Mediana</button>
+
+        <p id="presultado">Resultado: <span id="resultado"></span></p>
+      </div>
+
+      <hr>
+
+      <h2># Questão 02</h2>
+
+      <div class="questao">
+        <p>Dado um vetor de inteiros <strong>n</strong> e um inteiro qualquer <strong>x</strong>. Construa um algoritmo que determine o número de elementos pares do vetor que tem uma diferença igual ao valor de <strong>x</strong>.</p>
+      </div>
+
+      <div class="desafio">
+        <label for="x">Digite o valor de x:</label>
+
+        <input type="number" name="x" class="inp" id="x" min="2" value="2">
+
+        <label for="n">Digite os números:</label>
+
+        <input type="text" name="n" class="inp" id="n" placeholder="1, 2, 3, 4, 5, 10, 20, ...">
+
+        <button id="botao2">Mostrar Pares</button>
+
+        <p id="presultado">Resultado: <span id="resultado2"></span></p>
+      </div>
+
+      <hr>
+
+      <h2># Questão 03</h2>
+
+      <div class="questao">
+        <p>Um texto precisa ser encriptado usando o seguinte esquema. Primeiro, os espaços são removidos do texto. Então, os caracteres são escritos em um grid, no qual as linhas e colunas tem as seguintes regras:</p>
+        <p>Raiz quadrada de T <=linha<=coluna<=Raiz quadrada de T.</p>
+            <p>Considere T, como o tamanho do texto.</p>
+            <p>Se certifique de que linhas x colunas >= T.</p>
+            <p>Se múltiplos grids satisfazem as condições, escolha aquele com a menor área.</p>
+            <p>Escreva um algoritmo que ao receber uma string s, mostre a mensagem encriptada de acordo com as regras descritas..</p>
+      </div>
+
+      <div class="desafio">
+        <label for="n">Digite um texto:</label>
+
+        <input type="text" name="n" class="inp" id="string">
+
+        <button id="botao3">Encriptar</button>
+
+        <p id="presultado">Resultado: <span id="resultado3"></span></p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>Desenvolvido com 💙 por Bruno Seghese</footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
